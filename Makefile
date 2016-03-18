@@ -8,6 +8,7 @@ clean:
 	(cd textsock && make clean)
 	(cd client && rm -rf client.jar target project/target project/project)
 	(cd server && rm -rf server.jar target project/target project/project)
+	(cd sample-barrier && make clean)
 
 .PHONY: all clean
 
